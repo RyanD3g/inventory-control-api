@@ -1,5 +1,7 @@
 import express from 'express';
 import cors from 'cors';
+import 'reflect-metadata';
+import './shared/index';
 
 const app = express();
 
